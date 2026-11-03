@@ -1,24 +1,9 @@
-/* style.css */
-.temp-override-container {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.temp-override-status {
-    font-weight: bold;
-    padding: 6px;
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-}
-.temp-override-input-group {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-}
-.temp-override-input-group label {
-    width: 60px;
-}
-.temp-override-input-group input {
-    flex: 1;
+// manifest.json
+{
+    "display_name": "Temporary Char & User Overrider",
+    "loading_order": 100,
+    "js": "index.js",
+    "css": "style.css",
+    "author": "User",
+    "version": "1.0.0"
 }
